@@ -13,13 +13,22 @@ namespace Forloops
             Random rand = new Random();
             int actualNumber = rand.Next(1, 10);
             Console.WriteLine("Please guess a number between 1 and 10");
-            string guess;
+         
 
 
             for (int i = 2; i >= 0; i--)
             {
-              guess = Console.ReadLine();
-                if (guess == actualNumber.ToString())
+              string guessString = Console.ReadLine();
+              int guess;
+
+             bool result = int.TryParse(guessString, out guess);
+                if (!result)
+                {
+                    Console.WriteLine("Hey, that wasn't a number!");
+                    i++;
+                    continue;
+                }
+                if (guess == actualNumber)
                 {
                     Console.WriteLine("You Win");
                     break;
