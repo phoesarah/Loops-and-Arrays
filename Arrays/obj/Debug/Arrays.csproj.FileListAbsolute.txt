@@ -1,0 +1,6 @@
+D:\Workprograms\Loopsandarrays\Arrays\bin\Debug\Arrays.exe.config
+D:\Workprograms\Loopsandarrays\Arrays\bin\Debug\Arrays.exe
+D:\Workprograms\Loopsandarrays\Arrays\bin\Debug\Arrays.pdb
+D:\Workprograms\Loopsandarrays\Arrays\obj\Debug\Arrays.csprojResolveAssemblyReference.cache
+D:\Workprograms\Loopsandarrays\Arrays\obj\Debug\Arrays.exe
+D:\Workprograms\Loopsandarrays\Arrays\obj\Debug\Arrays.pdb

@@ -20,7 +20,7 @@ namespace Forloops
             {
               string guessString = Console.ReadLine();
               int guess;
-
+                
              bool result = int.TryParse(guessString, out guess);
                 if (!result)
                 {
